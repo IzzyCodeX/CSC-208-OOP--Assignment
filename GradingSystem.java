@@ -58,7 +58,7 @@ public class GradingSystem {
 
         // Ensure the system accepts at least 5 students
         do {
-            System.out.print("Enter number of students (minimum 5): ");
+            System.out.print("Enter number of students: ");
             numStudents = input.nextInt();
 
             if (numStudents < 5) {
